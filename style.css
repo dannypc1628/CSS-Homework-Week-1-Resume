@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    /* outline: 1px solid orange; */
+}
+body{
+    font-family: custom-sans-serif !important;
+    font-size:24px;
+}
+@font-face{
+    font-family: custom-sans-serif;
+    src: local("Heiti TC"), local("微軟正黑體"), local("Microsoft JhengHei");
+    unicode-range: U+4E00-9FFF;
+}
+@font-face{
+    font-family: custom-sans-serif;
+    src: local("Heiti TC"), local("微軟正黑體"), local("Microsoft JhengHei");
+    unicode-range: U+4E00-9FFF;
+}
+@font-face{
+    font-family: custom-sans-serif;
+    src: local(Helvetica), local(Segoe UI);
+    unicode-range: U+00-024F;
+}
+
+.my-photo{
+    height: 324px;
+    width: 324px;
+    border-radius: 50%;
+    margin-top:36px;
+    margin-bottom: 48px;
+}
+.box{
+    border:solid 3px;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+.contain-title{
+    display:flex;
+    align-items:center;
+}
+.contain-title-skills{
+    
+    padding-top: 31px;
+    margin-bottom:8px;
+}
+.flex-center-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.flex-column-center-center{
+    display:flex;
+    flex-direction:column ;
+    justify-content:center;
+    align-items:center;
+}
+.my-title{
+    font-size: 80px;
+    line-height: 90px;
+    margin-bottom: 24px;
+}
+.my-title2{
+    font-size: 36px;
+    line-height: 1;
+    display: inline;
+    font-weight:bold;
+}
+.my-title2-skills{
+    font-size: 32px;
+    line-height: 1;
+    display: inline;
+    font-weight:bold;
+}
+.my-education{
+    margin-bottom: 72px;
+}
+.blue-background{
+    background-color:#415165;
+}
+.my-skills{
+    color:#FFFFFF;
+    background-image: linear-gradient(white ,white 12%,#96A9C4 12%,#96A9C4 88%,white 88%);
+    background-size: 100% ;
+    margin-bottom: 72px;
+}
+.my-work-experience{
+    margin-bottom: 72px;
+}
+.experience-list{
+    margin-left: 24px;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+.experience-list-item{
+    margin-bottom: 32px;
+}
+.experience-list-item-title{
+    font-weight:bold;
+}
+.experience-list-item-content{
+    font-size: 20px;
+}
+.group-img{
+    margin-top:8px;
+    margin-bottom: 8.15px;
+}
+.footer{
+ color:white;  
+ padding-top:24px ;
+}
+.footer-hr{
+    color:white;
+    background-color: white;
+    border-top: 1px solid white;
+    margin-bottom: 32px;
+}
+.footer-item{
+    font-weight:lighter;
+    margin-bottom: 16px;
+}
+.icon{
+    margin:0 12px;
+}
+.icon-list{
+    margin-bottom: 48px;
+}
+hr{
+    
+    color:black;
+    border: 1px solid black;
+    background-color: black; 
+}
+.skills-hr{
+    color:white;
+    background-color: white;
+    border-top: 1px solid white;
+    width:996px;
+    margin-bottom: 40px;
+}
+.skills-tag{
+   
+    font-size: 24px;
+    margin-left: 16px;
+    display: inline-block;
+}
+.skills-list{
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-bottom: 56px;
+}
+.skills-list li{
+    line-height:36px;
+    margin-bottom:16px;
+}
+.skills-list-item-end{
+    margin-bottom:0 !important; 
+}
+.english-tag{
+    color:#A00404;
+    font-size: 24px;
+    margin-left: 16px;
+    display: inline-block;
+}
+.unorder::before{
+    content: '●';
+    color: #96A9C4;
+    font-size: 36px;
+    left: -16px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+.unorder{
+    text-indent: -21.75px;
+    line-height: 36px;
+    margin-left: 48px;
+}
+.a-little-space{
+    line-height: 24px;
+    display: block;
+}
+.my-profile{
+    margin-bottom: 72px;
+}
